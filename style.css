@@ -44,18 +44,108 @@ nav > a {
 nav > a:hover {
     color: var(--cor04);
 }
+div.frente {
+    background-image: url(Imagens/frente.jpg);
+    background-position: center center;
+    background-size: 100%;
+    height: 500px;
+    padding: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+div.frente > h1 {
+    color: var(--cor03);
+    font-size: 4em;
+    text-align: left;
+    padding-top: 90px;
+}
+div.frente > p {
+    color: white;
+    font-size: 1.2em;
+}
+div.destaque {
+    padding: 20px
+}
+div.conteudo {
+    width: 500px;
+    display: inline-block;
+    background-color: var(--cor02);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    list-style-position: inside;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+div.conteudo > ul {
+    list-style: none;
+    text-align: justify;
+}
+h3 {
+    text-align: center;
+    color: var(--cor04);
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+div.aside {
+    background-color: var(--cor02);
+    height: 100%;
+    width: 400px;
+    margin: 80px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+    display: inline-block;
+}
+div.aside img {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px 20px 0 0;
+}
+div.aside h1 {
+    text-align: center;
+}
+div.aside p {
+    text-align: center;
+}
 main {
     background-color:var(--cor05);
     margin: auto;
-    padding: 20px;
 }
 main h1 {
     text-align: center;
     line-height: 2em;
 }
-main p {
-    text-align: center
+main h2 {
+    text-align: center;
+    padding: 10px;
 }
-section img {
-    width: 300px;
+main p {
+    text-align: justify;
+    padding: 10px;
+}
+div.footer-1 {
+    background-color: var(--cor01);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+div.footer-1 p {
+    color: var(--cor05);
+
+}
+div.footer-1 ul {
+    list-style: none;
+    line-height: 1.6em;
+    color: var(--cor05);
+}
+div.footer-1 h3 {
+    color: white;
+    line-height: 2em;
+}
+footer {
+    background-color: var(--cor01);
+    padding: 20px;
+    color: var(--cor05);
+}
+footer p {
+    text-align: center;
 }
