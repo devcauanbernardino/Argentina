@@ -50,7 +50,7 @@ nav > a:hover {
 div.frente {
     background-image: url(Imagens/frente.jpg);
     background-position: center center;
-    background-size: 100%;
+    background-size: cover;
     height: 500px;
     padding: 20px;
     margin-bottom: 80px;
