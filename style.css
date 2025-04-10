@@ -51,7 +51,7 @@ div.frente {
     background-image: url(Imagens/frente.jpg);
     background-position: center center;
     background-size: cover;
-    height: 500px;
+    height: 700px;
     padding: 20px;
     margin-bottom: 80px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
@@ -61,7 +61,7 @@ div.frente > h1 {
     color: var(--cor03);
     font-size: 4em;
     text-align: left;
-    padding-top: 90px;
+    padding-top: 180px;
 }
 div.frente > p {
     color: white;
@@ -74,7 +74,7 @@ div.conteudo {
     width: 500px;
     display: inline-block;
     background-color: var(--cor02);
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
     border-radius: 10px;
     list-style-position: inside;
@@ -115,6 +115,7 @@ div.aside h1 {
 }
 div.aside p {
     text-align: center;
+    padding-bottom: 10px;
 }
 main {
     background-color:var(--cor05);
@@ -128,7 +129,7 @@ main h2 {
     text-align: center;
     padding: 10px;
 }
-main p {
+main > p {
     text-align: justify;
     padding: 10px;
 }
@@ -150,6 +151,7 @@ div.footer-1 ul {
 div.footer-1 h3 {
     color: white;
     line-height: 2em;
+    text-align: left;
 }
 footer {
     background-color: var(--cor01);
