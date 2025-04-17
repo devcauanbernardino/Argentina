@@ -209,6 +209,11 @@ footer p {
     }
     div.aside img {
       width: 100%;
+      transition: 0.5s;
+    }
+    div.aside img:hover {
+      transform: scale(1.2);
+      border-radius: 10px;
     }
     div.conteudo {
         width: auto;
