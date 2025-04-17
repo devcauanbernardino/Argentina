@@ -188,7 +188,7 @@ footer {
 footer p {
   text-align: center;
 }
-@media (min-width: 430px) and (max-width: 950px){
+@media (min-width: 360px) and (max-width: 740px){
     div.footer-1 {
         display: block;
         text-align: center;
