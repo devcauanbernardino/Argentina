@@ -69,6 +69,23 @@ div.frente > p {
   font-size: 1.2em;
   padding: 10px;
 }
+div.frente button {
+  background-color: var(--cor01);
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+  font-family: var(--fonte-padrao);
+  transition-duration: 0.5s;
+  font-size: 1.2em;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+div.frente button:hover {
+  background-color: var(--cor02);
+  color: var(--cor01);
+}
 div.destaque {
   padding: 20px;
 }
@@ -171,7 +188,7 @@ footer {
 footer p {
   text-align: center;
 }
-@media (max-width: 480px){
+@media (min-width: 430px) and (max-width: 950px){
     div.footer-1 {
         display: block;
         text-align: center;
@@ -181,23 +198,26 @@ footer p {
     }
     div.destaque {
         display: block;
-        text-align: center;
+        align-items: center;
         padding: 0;
     }
     body {
         width: 100%;
     }
     div.aside {
-        margin: 20px;
+        width: auto;
+    }
+    div.aside img {
+      width: 100%;
     }
     div.conteudo {
-        margin: 20px;
+        width: auto;
     }
     h3 {
         padding: 20px;
     }
 }
-@media (min-width: 768px) and (max-width: 1024px){
+/* @media (min-width: 768px) and (max-width: 1024px){
     div.footer-1 {
         display: block;
         text-align: center;
@@ -223,4 +243,4 @@ footer p {
     h3 {
         padding: 20px;
     }
-}
+} */
