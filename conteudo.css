@@ -33,3 +33,50 @@ nav > a{
 nav > a:hover {
     color: var(--cor04);
 }
+main {
+    margin: 0 200px
+}
+section#frente {
+    background-image: url(Imagens/backfrente.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+section#frente h1 {
+    color: var(--cor03);
+    font-size: 3em;
+    padding-top: 200px;
+    line-height: 1em;
+    padding-left: 10px;
+}
+section#frente > p {
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+}
+section.colon {
+    text-align: center;
+    height: 700px;
+}
+section.colon h2 {
+    padding: 15px;
+    color: var(--cor04);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+div.caixa > p {
+    text-indent: 10px;
+    text-align: justify;
+}
+div.caixa img {
+    width: 500px;
+    padding: 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+div.caixa img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
