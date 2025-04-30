@@ -34,7 +34,7 @@ nav > a:hover {
     color: var(--cor04);
 }
 main {
-    margin: 0 200px
+    margin: 0;
 }
 section#frente {
     background-image: url(Imagens/backfrente.jpg);
@@ -57,26 +57,127 @@ section#frente > p {
     font-size: 1.2em;
     padding: 10px;
 }
-section.colon {
+section#colon {
     text-align: center;
     height: 700px;
 }
-section.colon h2 {
+section#colon h2 {
     padding: 15px;
     color: var(--cor04);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
 }
-div.caixa > p {
+div.caixa-1 {
+    display: flex;
+    margin: 0 200px;
+}
+div.caixa-1 > p {
     text-indent: 10px;
     text-align: justify;
+    margin: auto;
 }
-div.caixa img {
+div.caixa-1 img {
     width: 500px;
     padding: 40px;
     border-radius: 50px;
     transition: 0.5s;
 }
-div.caixa img:hover {
+div.caixa-1 img:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
+div.caixa-2 {
+    display: flex;
+    margin: 0 200px;
+}
+div.caixa-2 > p {
+    text-indent: 10px;
+    text-align: justify;
+    margin: auto;
+}
+div.caixa-2 img {
+    width: 500px;
+    padding: 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+div.caixa-2 img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+section.meio {
+    background-color: var(--cor02);
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+section.meio  p {
+    text-align: justify;
+    text-indent: 10px;
+}
+section.meio > div {
+    text-align: center;
+    width: 500px;
+}
+section.meio > iframe {
+    border: 1px solid var(--cor01);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
+}
+div.footer-1 {
+    background-color: var(--cor01);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+  }
+  div.footer-1 p {
+    color: var(--cor05);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+  }
+  div.footer-1 ul {
+    list-style: none;
+    line-height: 1.6em;
+    color: var(--cor05);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+  }
+  div.footer-1 h3 {
+    color: white;
+    line-height: 2em;
+    text-align: left;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+  }
+  div.footer-content a {
+    text-decoration: none;
+    color: var(--cor05);
+  }
+  div.footer-content a:hover {
+    color: var(--cor04);
+  }
+  footer {
+    background-color: var(--cor01);
+    padding: 20px;
+    color: var(--cor05);
+  }
+  footer p {
+    text-align: center;
+  }
+  @media (min-width: 100px) and (max-width: 1000px) {
+        div.footer-1 {
+            display: block;
+            text-align: center;
+        }
+        div.footer-1 h3{
+            text-align: center;
+        }
+        body {
+            width: 100%;
+        }
+        div.caixa-1, div.caixa-2 {
+            display: block;
+            width: auto;
+            align-items: center;
+            margin: auto;
+        }
+        div.caixa-1 p, img {
+            margin: auto;
+        }
+    }
