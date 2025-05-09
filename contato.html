@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contato.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contato.css" />
     <title>Contato</title>
-</head>
-<body>
-    <header>
-        <div id="frente">
-            <h1>Entre em Contato</h1>
-            <p>Quer tirar dúvidas, enviar sugestões ou compartilhar sua experiência em Buenos Aires? Preencha o formulário abaixo — será um prazer ouvir você!</p>
-            <a href="index.html">Voltar</a>
+  </head>
+  <body>
+    <section>
+        <div>
+            <h1>Tem alguma sugestão, dúvida ou experiência para compartilhar? Fale com a gente!</h1>
+            <a href="index.html">Voltar ao Início</a>
         </div>
-    </header>
-    <section id="formulario">
-        <form action="" autocomplete="off" method="post">
-            <p><label for="inome">Nome completo:</label> <input type="text" name="nome" id="inome"></p>
-            <p><label for="imail">Email:</label><input type="email" name="email" id="imail"></p>
-            <textarea name="assunto" id="iassunto" placeholder="Dúvida, sugestão, relato de viagem, outro"></textarea> <br>
-            <input type="submit" value="Enviar">
-        </form>
     </section>
-</body>
+    <section id="formulario">
+      <form action="cadastro.php" autocomplete="off" method="post">
+        <p>
+          <label for="inome">Nome completo:</label>
+          <input type="text" name="nome" id="inome" required/>
+        </p>
+        <p>
+          <label for="imail">Email:</label>
+          <input type="email" name="email" id="imail" required/>
+        </p>
+        <textarea name="assunto" id="iassunto" placeholder="Dúvida, sugestão, relato de viagem, outro"></textarea>
+        <br/>
+        <p>
+            <input type="submit" value="Enviar" class="botao"/>
+            <input type="reset" value="Limpar" class="botao">
+        </p>
+      </form>
+    </section>
+  </body>
 </html>
