@@ -131,14 +131,18 @@ div.aside img:hover {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.432);
 }
 div.aside img {
+  border-radius: 10px 10px 0 0;
   width: 400px;
   height: 400px;
 }
 div.aside h1 {
+  background-color: var(--cor02);
   text-align: center;
 }
 div.aside p {
+  background-color: var(--cor02);
   text-align: center;
+  border-radius: 0px 0 10px 10px;
   padding-bottom: 10px;
 }
 main {
