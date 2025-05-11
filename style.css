@@ -232,8 +232,12 @@ footer p {
     padding: 20px;
   }
 }
-
 @media (min-width: 1000px) and (max-width: 1500px) {
+  div.aside {
+    margin: 30px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1800px) {
   div.aside {
     margin: 40px;
   }
