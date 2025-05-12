@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --cor01: #183b59;
+  --cor02: #608ba6;
+  --cor03: #d9b23d;
+  --cor04: #bf9039;
+  --cor05: #bfbfbf;
+
+  --fonte-padrao: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: var(--cor01);
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-style: var(--fonte-padrao);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+}
+nav > a {
+  text-decoration: none;
+  color: #bfbfbf;
+  padding: 10px;
+  transition-duration: 0.5s;
+}
+nav > a:hover {
+  color: var(--cor04);
+}
+section#frente {
+  background-image: url(../Imagens/la-plata-frente.jpg);
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-attachment: fixed;
+  flex-direction: column;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.603);
+}
+section#frente h1{
+  color: var(--cor03);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.548);
+  font-size: 2.5em;
+}
+section#frente p {
+  color: var(--cor05);
+  font-size: 1.5em;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.548);
+}
+section.content {
+}

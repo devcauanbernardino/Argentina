@@ -48,7 +48,11 @@ nav > a:hover {
   color: var(--cor04);
 }
 div.frente {
-  background-image: url(Imagens/frente.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../Imagens/frente.jpg);
   background-position: center center;
   background-size: cover;
   height: 700px;
@@ -62,7 +66,6 @@ div.frente > h1 {
   color: var(--cor03);
   font-size: 4em;
   text-align: left;
-  padding-top: 180px;
   line-height: 1em;
 }
 div.frente > p {

@@ -17,14 +17,14 @@
 }
 
 body {
-  background-image: url(Imagens/back-contato.jpg);
+  background-image: url(../Imagens/back-contato.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 form {
   color: white;
-  background-image: url(Imagens/back-contato.jpg);
+  background-image: url(../Imagens/back-contato.jpg);
   background-size: cover;
   background-position: center;
   width: 500px;
