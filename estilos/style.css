@@ -123,6 +123,7 @@ div.aside {
   height: 100%;
   width: 400px;
   margin: 80px;
+  padding: 30px;
   display: inline-block;
 }
 div.aside img {
