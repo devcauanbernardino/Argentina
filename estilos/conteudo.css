@@ -39,6 +39,10 @@ main {
 section#frente {
   background-image: url(../Imagens/backfrente.jpg);
   height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -48,14 +52,10 @@ section#frente {
 section#frente h1 {
   color: var(--cor03);
   font-size: 3em;
-  padding-top: 200px;
-  line-height: 1em;
-  padding-left: 10px;
 }
 section#frente > p {
   color: white;
   font-size: 1.2em;
-  padding: 10px;
 }
 section#colon {
   text-align: center;
@@ -105,10 +105,10 @@ div.caixa-2 img:hover {
 }
 section.meio {
   background-color: var(--cor02);
-  height: 400px;
+  height: 600px;
   display: flex;
   justify-content: space-around;
-  padding-top: 120px;
+  align-items: center;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.473);
 }
 section.meio h2 {
@@ -194,9 +194,16 @@ h3 {
 
 @media (min-width: 100px) and (max-width: 1100px) {
   nav {
-    width: auto;
+    display: flex;
+    justify-content: center;
   }
   nav > a {
+    align-items: center;
+  }
+  section#frente {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
   }
   div.caixa-1 {
@@ -232,17 +239,11 @@ h3 {
     width: 300px;
   }
   section.meio {
-    display: block;
-    padding: 0;
-    height: 650px;
-    padding: 50px;
-  }
-  section.meio p {
-    display: block;
-    text-align: justify;
-    text-indent: 10px;
-    margin: auto;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 750px;
   }
   div#box {
     margin: auto;
